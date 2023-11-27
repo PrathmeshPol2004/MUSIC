@@ -4,21 +4,21 @@ let songs =
     SongName:"Gulabi Aankhen",
     path: '/MusicApp/aud/Gulabi Aankhen SANAM.mp3',
     artist: 'SANAM',
-    cover: '/MusicApp/img/my.jpg'
+    cover : '/MusicApp/img/my.jpg'
 }
 ,
 {
     SongName:"Hai Apna Dil Awara ",
     path: '/MusicApp/aud/Hai Apna Dil Awara.mp3',
     artist: 'SANAM',
-    cover: '/MusicApp/img/my.jpg'
+    cover : '/MusicApp/img/my.jpg'
 }
 ,
 {
     SongName:"Meri Mehbooba",
     path: '/MusicApp/aud/Meri Mehbooba.mp3',
     artist: '',
-    cover: '/MusicApp/img/my.jpg'
+    cover : '/MusicApp/img/my.jpg'
 }
 ,
 {
@@ -30,16 +30,16 @@ let songs =
 ,
 {
     SongName: 'Sona Sona' ,
-    path: '/MusicApp/aud/Sona Sona.mp3',
-    artist: '' ,
-    cover: '/MusicApp/img/my.jpg',
+    path    : '/MusicApp/aud/Sona Sona.mp3' ,
+    artist  : '' ,
+    cover   : '/MusicApp/img/my.jpg',
 }
 ,
 {
     SongName:'Gutti Mohabbat' ,
-    path   :'/MusicApp/aud/Gutti Mohabbat.mp3',
-    artist :'',
-    cover  :'/MusicApp/img/my.jpg'
+    path    :'/MusicApp/aud/Gutti Mohabbat.mp3' ,
+    artist  :'',
+    cover   :'/MusicApp/img/my.jpg'
 }
 ,
 {
@@ -51,15 +51,15 @@ let songs =
 ,
 {
     SongName:'Chand Sifarish' ,
-    path   :'/MusicApp/aud/Chand Sifarish.mp3',
-    artist :'',
-    cover  :'/MusicApp/img/my.jpg'
+    path    :'/MusicApp/aud/Chand Sifarish.mp3' ,
+    artist  :'',
+    cover   :'/MusicApp/img/my.jpg'
 }
 ,
 {
     SongName:'Ambarsariya' ,
     path    :'/MusicApp/aud/Ambarsariya.mp3' ,
-    artist :'',
-    cover  :'/MusicApp/img/my.jpg'
+    artist  :'',
+    cover   :'/MusicApp/img/my.jpg'
 }
 ]
