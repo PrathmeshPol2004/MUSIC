@@ -18,17 +18,17 @@ const volRangeBar = document.querySelector('#volume')
 const vol_high_btn = document.querySelector('.volHigh');
 
 
-//Trigger music setup function
+
 setupMusic(currentSongIndex);
 
 
 function setupMusic(index){
-    // seekbar Set value to 0 
+    
     seekBar.value = 0;
-    // Getting songs object array and cache in var
+    
     let song = songs[index];
 
-    // Giving each Element the attribute to it
+    
     songCover.src=`${song.cover}`;
     audioPlayerTag.src=`${song.path}`;
     songName.innerHTML='';
@@ -37,7 +37,7 @@ function setupMusic(index){
     artistName.innerHTML=`${song.artist}`;
     songCover.src=`${song.cover}`;
 
-    // Set Seekbar some informations
+    
     CurrentTime.innerHTML=''
     CurrentTime.innerHTML='00:00'
     setInterval(()=>{
@@ -45,16 +45,10 @@ function setupMusic(index){
         songDurtion.innerHTML= timeFormat(audioPlayerTag.duration)
     },300)
     
-    // if (coverIMG.classList.contains('active')){
-    //   let musicIsPlay =  setInterval(() => {
-    //         seekBar.value = audioPlayerTag.CurrentTime;
-    //     }, 500);
-    // }else{
-    //     clearInterval(musicIsPlay)
-    // }
+
 }
 
-// Creating Function that Convert the input to Min:Sec
+
 function timeFormat(time){
     let min = Math.floor(time / 60);
     if(min < 10){
