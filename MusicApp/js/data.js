@@ -1,6 +1,13 @@
 let songs = 
 [
 {
+    SongName:"Meri Mehbooba",
+    path: 'MusicApp/aud/Meri Mehbooba.mp3',
+    artist: '',
+    cover: 'MusicApp/img/my.jpg'
+}
+,
+{
     SongName:"Gulabi Aankhen",
     path: 'MusicApp/aud/Gulabi Aankhen SANAM.mp3',
     artist: 'SANAM',
@@ -11,13 +18,6 @@ let songs =
     SongName:"Hai Apna Dil Awara ",
     path: 'MusicApp/aud/Hai Apna Dil Awara.mp3',
     artist: 'SANAM',
-    cover: 'MusicApp/img/my.jpg'
-}
-,
-{
-    SongName:"Meri Mehbooba",
-    path: 'MusicApp/aud/Meri Mehbooba.mp3',
-    artist: '',
     cover: 'MusicApp/img/my.jpg'
 }
 ,
