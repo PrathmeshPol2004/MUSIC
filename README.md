@@ -15,7 +15,7 @@ Welcome to Music App, where the magic of music meets the joy of simplicity. 🌈
 ## Getting Started:
 
 1. **Visit Music App on the Web:**
-   Open [musicapp.github.io](prathmeshpol2004.github.io/MUSIC/) and let the music magic unfold! 🎉🎵
+   Open [musicapp](prathmeshpol2004.github.io/MUSIC/) and let the music magic unfold! 🎉🎵
 
 2. **Dance Like No One's Watching:**
    Seriously, I won't judge. Let the music take over! 💃🕺
