@@ -50,7 +50,7 @@ body{
 .container{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .container .main-body{
@@ -118,6 +118,7 @@ body{
     align-items: center;
     width: 85%;
     margin-top: 25px;
+    cursor: pointer;
 }
 .container .main-body .progress-bar input[type="range"]{
     width: 100%;
@@ -208,15 +209,18 @@ body{
 .container .main-body .control-btns .music-control .play-btn .play{
     opacity: 1;
     z-index: 2;
+    cursor: pointer;
 }
 .container .main-body .control-btns .music-control .play-btn .pause{
     opacity: 0;
+    cursor: pointer;
 }
 .container .main-body .volume-control{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    cursor: pointer;
 }
 .container .main-body .volume-control >:first-child ,
 .container .main-body .volume-control >:last-child {
@@ -241,6 +245,110 @@ body{
     box-shadow: -400px 0 0 400px #ffffff;
 }
 
+.container1 {
+position: absolute;
+width: 891px;
+height: 600px;
+left: 440px;
+top: 32px;
 
+background: var(--main-overlay-clr);
+border-radius: 20px;
+}
 
+.app-header1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 35px 0 25px;
+}
 
+.app-header1 h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--sec-tx-clr);
+    width: fit-content;
+    margin: auto;
+    user-select: none;
+}
+
+.button-container {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: none;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-music {
+    background-color: var(--seek-bar-clr);
+    color: #fff;
+    cursor: pointer;
+}
+
+.lofi {
+    background-color: var(--main-overlay-clr);
+    cursor: pointer;
+}
+
+.cen18 {
+    background-color: var(--main-overlay-clr);
+    cursor: pointer;
+}
+
+.remix {
+    background-color: var(--main-overlay-clr);
+    cursor: pointer;
+}
+
+.song-button:hover {
+    background-color: var(--sec-tx-clr);
+}
+
+.hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #34495e;
+}
+
+.songlist {
+    text-align: left;
+    margin: 20px;
+    background-color: var(--main-overlay-clr);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .songlist h2 {
+    color: var(--seek-bar-clr);
+  }
+
+.song-item {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.song-name {
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.song-time {
+    color: var(--seek-bar-clr);
+}
