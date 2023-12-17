@@ -50,7 +50,7 @@ body{
 .container{
     min-height: 100vh;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 .container .main-body{
@@ -65,6 +65,7 @@ body{
     backdrop-filter: blur(15px);
     box-shadow: 0 0 15px 3px #25252542;
     border-radius: 16px;
+    margin: 20px;
 }
 @media (max-width:768px) {
     .container .main-body{
@@ -245,16 +246,6 @@ body{
     box-shadow: -400px 0 0 400px #ffffff;
 }
 
-.container1 {
-position: absolute;
-width: 891px;
-height: 600px;
-left: 440px;
-top: 32px;
-
-background: var(--main-overlay-clr);
-border-radius: 20px;
-}
 
 .app-header1 {
     position: relative;
@@ -275,49 +266,58 @@ border-radius: 20px;
 }
 
 .button-container {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 30px;
     font-size: 16px;
     text-decoration: none;
     background-color: none;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
     justify-content: center;
     align-items: center;
 }
 
 .all-music {
+    position: absolute;
+    width: 120px;
+    height: 30px;
     background-color: var(--seek-bar-clr);
     color: #fff;
     cursor: pointer;
 }
 
 .lofi {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 170px;
     background-color: var(--main-overlay-clr);
     cursor: pointer;
 }
 
 .cen18 {
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 320px;
     background-color: var(--main-overlay-clr);
     cursor: pointer;
 }
 
 .remix {
+    position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 480px;
     background-color: var(--main-overlay-clr);
     cursor: pointer;
 }
 
 .song-button:hover {
-    background-color: var(--sec-tx-clr);
-}
-
-.hr {
-    margin: 20px 0;
-    border: 0;
-    height: 1px;
-    background: #34495e;
+    background-color: #504840;
 }
 
 .songlist {
@@ -330,7 +330,7 @@ border-radius: 20px;
   }
   
   .songlist h2 {
-    color: var(--seek-bar-clr);
+    color: #fff;
   }
 
 .song-item {
@@ -350,5 +350,13 @@ border-radius: 20px;
 }
 
 .song-time {
-    color: var(--seek-bar-clr);
+    color: var(--sec-tx-clr);
+}
+
+.card-text{
+    margin: 20px;
+}
+.text-muted {
+    padding: 20px;
+    color: black;
 }
